@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Update="NETStandard.Library" Version="1.6.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<NetStandardImplicitPackageVersion Include="NetStandardLibrary" Version="1.6.0" />
+	</ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="amazon.lambda.apigatewayevents" Version="1.0.0" />
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.0.0" />
+    <PackageReference Include="amazon.lambda.s3events" Version="1.0.0" />
+    <PackageReference Include="amazon.lambda.serialization.json" Version="1.0.0" />
+    <PackageReference Include="amazon.lambda.snsevents" Version="1.0.0" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.5.13" />
+    <PackageReference Include="mailkit" Version="1.12.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="1.1.2" />
+    <PackageReference Include="microsoft.extensions.configuration" Version="1.0.2" />
+    <PackageReference Include="microsoft.extensions.configuration.json" Version="1.0.2" />
+    <PackageReference Include="microsoft.extensions.options.configurationextensions" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Amazon.Lambda.Tools" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>
